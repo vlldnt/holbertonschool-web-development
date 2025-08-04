@@ -1,5 +1,7 @@
 # 🌐 HTML & CSS Website Project
 
+![](readmeimage.png)
+
 ## 📋 Project Overview
 
 This project is a multi-phase website development process based on a **Figma mockup**. The first phase involves building a semantic and accessible HTML structure. The second phase focuses on styling the website using CSS to match the design specifications.
