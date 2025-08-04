@@ -1,6 +1,6 @@
 # 🌐 HTML & CSS Website Project
 
-![](readmeimage.png)
+![SmileSchool Banner](https://github.com/vlldnt/holbertonschool-web-development/raw/main/css_advanced/images/readmeimage.png)
 
 ## 📋 Project Overview
 
