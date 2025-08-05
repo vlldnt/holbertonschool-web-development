@@ -1,34 +1,17 @@
-# 🌐 HTML & CSS Website Project
+# 🌐 Web Development Project – GitHub Pages
 
-![SmileSchool Banner](https://github.com/vlldnt/holbertonschool-web-development/raw/main/css_advanced/images/readmeimage.png)
+This branch contains a simple static website built with **HTML and CSS**, hosted using **GitHub Pages**.
 
-## 📋 Project Overview
+## 🔗 Live Demo
 
-This project is a multi-phase website development process based on a **Figma mockup**. The first phase involves building a semantic and accessible HTML structure. The second phase focuses on styling the website using CSS to match the design specifications.
+👉 [https://vlldnt.github.io/holbertonschool-web-development/](https://vlldnt.github.io/holbertonschool-web-development/)
 
----
+## 🗂️ Contents
 
-## 🧱 Phase 1: HTML Structure
+- `index.html` – Main HTML page
+- `style.css` – Stylesheet
+- `images/` – Folder with all site images
 
-### 🎯 Objectives
+## 🚀 Deployment
 
-- Convert a Figma design mockup into semantic HTML code  
-- Create a fully functional website using only HTML (no CSS styling)  
-- Implement proper HTML structure and accessibility practices  
-- Build a responsive foundation ready for future CSS implementation
-
-### 📁 Deliverables
-
-- Semantic HTML files  
-- Accessible and well-structured markup  
-- Placeholder content and layout based on the Figma design
-
----
-
-## 🎨 Phase 2: CSS Styling
-
-### 🎯 Objectives
-
-- Implement responsive and visually accurate styles using CSS  
-- Translate design elements from Figma into clean, maintainable CSS  
-- Apply layout techniques (Flexbox, Grid, etc.) for
+This site is deployed from the `gh_pages` branch using [GitHub Pages](https://pages.github.com/).
