@@ -1,4 +1,4 @@
-/*RESETS*/
+/* ------- RESETS -------- */
 * {
   margin: 0;
   padding: 0;
@@ -6,10 +6,8 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/*BODY MAIN*/
+/* ------- BODY MAIN -------- */
 body {
-  margin: 0;
-  padding: 0;
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
@@ -17,12 +15,18 @@ body {
 }
 
 main {
-  max-width: 100%;
-  margin: 0 auto;
   padding: 0 20px;
 }
 
-/*HEADER*/
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* ------- HEADER -------- */
 header {
   background-color: transparent;
   display: flex;
@@ -50,12 +54,11 @@ header {
 .nav-links a {
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 12px;
   color: white;
 }
 
-/*BANNER SECTION*/
+/* ------- BANNER SECTION -------- */
 .banner-section {
   color: white;
   width: 100%;
@@ -77,12 +80,12 @@ header {
 
 .maintitle p {
   word-spacing: 60px;
-  font-weight: bold;
   font-size: 16px;
   margin-bottom: 40px;
 }
 
-.maintitle button {
+.maintitle button,
+.membership-section button {
   background-color: #c271ff;
   font-size: 14px;
   color: white;
@@ -95,6 +98,7 @@ header {
 
 .pro-container {
   margin-top: 130px;
+  margin: 0 50px;
 }
 
 .pro-container h2 {
@@ -116,22 +120,156 @@ header {
 }
 
 .highlight {
-  font-weight: bold;
   font-size: 32px;
   color: #c271ff;
 }
 
 .pro-cards img {
   border-radius: 50%;
+  width: 150px;
+  height: 150px;
 }
 
-.pro-cards h2 {
+.pro-cards h3 {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .pro-cards p {
-  font-style: italic;
   font-size: 16px;
   font-weight: lighter;
+}
+
+/* ------- QUOTE SECTION -------- */
+.quote-section {
+  background-color: #c271ff;
+  width: 100%;
+  height: 392px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-blockquote {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  width: 60%;
+}
+
+.quote-container p,
+blockquote {
+  color: white;
+}
+
+blockquote {
+  margin-bottom: 20px;
+}
+
+/* ------- VIDEO SECTION -------- */
+.video-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-section h1 {
+  margin: 80px 0;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.video-cards {
+  width: 255px;
+}
+
+.video-cards img {
+  width: 255px;
+  height: 154px;
+}
+
+.video-cards h2 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.video-cards p {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(7, 22, 41, 0.5016);
+}
+
+.video-avatar {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+  align-items: center;
+  margin: 10px;
+}
+
+.video-avatar h3 {
+  font-weight: 600;
+  color: #c271ff;
+}
+
+.video-cards h2,
+.video-cards p,
+.video-stars {
+  margin: 10px;
+}
+
+.video-avatar img {
+  width: 30px;
+  height: 30px;
+}
+
+.video-stars {
+  display: flex;
+  gap: 10px;
+  color: #c271ff;
+  font-size: 14px;
+  font-weight: 600;
+  align-items: center;
+  margin: 10px;
+}
+
+.video-stars p {
+  margin-left: auto;
+  color: #C271FF;
+}
+
+.video-stars img {
+  width: 15px;
+  height: 15px;
+}
+
+/* ------- MEMBERSHIP SECTION -------- */
+.membership-section {
+  width: 100%;
+  background-color: #071629;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  gap: 50px;
 }
