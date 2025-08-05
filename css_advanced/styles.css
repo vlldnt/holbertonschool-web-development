@@ -138,6 +138,7 @@ header {
 .pro-cards p {
   font-size: 16px;
   font-weight: lighter;
+  line-height: 24px;
 }
 
 /* ------- QUOTE SECTION -------- */
@@ -164,6 +165,10 @@ header {
   width: 60%;
 }
 
+.quote-blockquote p {
+  line-height: 33px;
+}
+
 .quote-container p,
 blockquote {
   color: white;
@@ -171,6 +176,7 @@ blockquote {
 
 blockquote {
   margin-bottom: 20px;
+  line-height: 33px;
 }
 
 /* ------- VIDEO SECTION -------- */
@@ -234,6 +240,7 @@ blockquote {
 .video-cards p,
 .video-stars {
   margin: 10px;
+  line-height: 24px;
 }
 
 .video-avatar img {
@@ -272,4 +279,128 @@ blockquote {
   align-items: center;
   padding: 80px 0;
   gap: 50px;
+}
+
+.membership-section h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.membership-container {
+  width: 100%;
+  padding: 0 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.membership-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 257px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.membership-card img {
+  width: 44px;
+  height: 35px;
+}
+
+.membership-card h2 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.membership-card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+
+/* ------- FAQ SECTION -------- */
+.faq-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  gap: 80px;
+}
+
+.faq-section h1 {
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.faq-container {
+  width: 920px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+
+}
+
+.faq-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-row h2 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.faq-row p {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(7, 22, 41, 0.5016);
+  line-height: 24px;
+  
+}
+
+.faq-card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  gap: 40px;
+}
+
+
+/* ------- FOOTER SECTION -------- */
+
+footer {
+  width: 100%;
+  height: 249px;
+  background-color: #071629;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 150px 20px 150px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
 }
